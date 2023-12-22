@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_custom"
+        android:icon="@drawable/nav_custom"
+        android:title="Custom" />
+    <item
+        android:id="@+id/nav_save"
+        android:icon="@drawable/nav_save"
+        android:title="Saved" />
+    <item
+        android:id="@+id/nav_more"
+        android:icon="@drawable/more"
+        android:title="@string/more_apps" />
+    <item
+        android:id="@+id/nav_rateUs"
+        android:icon="@drawable/nav_rate"
+        android:title="Rate App" />
+
+    <item
+        android:id="@+id/nav_privacy"
+        android:icon="@drawable/privacy"
+        android:title="@string/privacy_policy" />
+
+
+</menu>

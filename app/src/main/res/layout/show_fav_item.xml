@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="@dimen/_90sdp"
+            android:background="@drawable/main_item_pic_bg"
+            android:layout_marginStart="@dimen/_3sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_height="@dimen/_87sdp">
+
+<!--            <View-->
+<!--                android:id="@+id/view"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="@dimen/_20sdp"-->
+<!--                android:background="#B92E2B2B"-->
+<!--                android:elevation="@dimen/_5sdp"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintEnd_toEndOf="@id/selected_image"-->
+<!--                app:layout_constraintHorizontal_bias="0.05"-->
+<!--                app:layout_constraintStart_toStartOf="@id/selected_image"-->
+<!--                app:layout_constraintTop_toTopOf="parent"-->
+<!--                app:layout_constraintVertical_bias="0.99">-->
+
+<!--            </View>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/newName"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:elevation="@dimen/_5sdp"-->
+<!--                android:ellipsize="marquee"-->
+<!--                android:hint="@string/new_name"-->
+<!--                android:paddingLeft="@dimen/_5sdp"-->
+<!--                android:singleLine="true"-->
+<!--                android:gravity="center"-->
+<!--                android:text="@{item.title}"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                android:textColorHint="#FFFFFF"-->
+<!--                app:layout_constraintBottom_toBottomOf="@id/view"-->
+<!--                app:layout_constraintEnd_toEndOf="@id/view"-->
+<!--                app:layout_constraintStart_toStartOf="@id/view"-->
+<!--                app:layout_constraintTop_toTopOf="@id/view"-->
+<!--                app:layout_constraintVertical_bias="0.5">-->
+
+<!--            </TextView>-->
+
+            <ImageView
+                android:id="@+id/selected_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:layout_marginStart="@dimen/_2sdp"
+                android:layout_marginEnd="@dimen/_2sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginBottom="@dimen/_2sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:src="@drawable/b"
+                app:layout_constraintTop_toTopOf="parent"
+                app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize50Percent"
+                app:strokeColor="@color/theme" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

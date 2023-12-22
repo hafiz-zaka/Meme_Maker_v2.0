@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <!--        <import type="com.mememaker.mememakerpro.creatememe.model.MainModel"/>-->
+
+        <!--        <variable-->
+        <!--            name="item"-->
+        <!--            type="MainModel" />-->
+    </data>
+
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/theme"
+        >
+
+
+<!--        <ScrollView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent">-->
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/windowBackground"
+                tools:context=".activity.MainDashboard">
+
+                <include
+                    android:id="@+id/main_dashboard_toolbar"
+                    layout="@layout/main_dashboard_topbar"
+                    android:layout_height="0dp"
+                    android:layout_width="match_parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"/>
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/newCatRv"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50sdp"
+                    android:background="@color/theme"
+                    tools:listitem="@layout/categories_item"
+                    tools:itemCount="4"
+                    app:spanCount="4"
+                    android:paddingTop="@dimen/_10sdp"
+                    android:paddingStart="@dimen/_10sdp"
+                    app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/main_dashboard_toolbar"
+                    app:layout_constraintVertical_bias="0.0" />
+
+
+
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginHorizontal="8dp"
+                    android:id="@+id/appAd"
+                    android:elevation="4dp"
+
+                    android:layout_marginVertical="@dimen/_8sdp"
+                    android:background="@drawable/roundercorner"
+                    app:layout_constraintTop_toBottomOf="@id/newCatRv"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Download Sticker Maker App"
+                        android:layout_centerVertical="true"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:id="@+id/adText"
+                        android:layout_marginHorizontal="8dp"
+                        android:layout_marginVertical="16dp"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:text="Ad"
+                        android:padding="3dp"
+                        android:background="@color/white"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:layout_height="wrap_content"/>
+
+                </RelativeLayout>
+
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/cMoreRecycleView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                    app:layout_constraintBottom_toTopOf="@+id/custom_float"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    app:layout_constraintTop_toBottomOf="@id/appAd"
+                    app:spanCount="3"
+                    tools:itemCount="15"
+                    tools:listitem="@layout/show_new_item" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/universityRV"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                    app:layout_constraintBottom_toTopOf="@+id/custom_float"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    app:layout_constraintTop_toBottomOf="@id/appAd"
+                    app:spanCount="3"
+                    tools:itemCount="15"
+                    tools:listitem="@layout/show_new_item" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/popularRecycleView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                    app:layout_constraintBottom_toTopOf="@+id/custom_float"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    app:layout_constraintTop_toBottomOf="@id/appAd"
+                    app:spanCount="3"
+                    tools:itemCount="15"
+                    tools:listitem="@layout/show_new_item" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/newRecycleView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintBottom_toTopOf="@+id/custom_float"
+                    app:layout_constraintTop_toBottomOf="@id/appAd"
+                    app:spanCount="3"
+                    tools:itemCount="15"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    tools:listitem="@layout/show_new_item"  />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/cFavRecycleView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintBottom_toTopOf="@+id/custom_float"
+                    app:layout_constraintTop_toBottomOf="@id/appAd"
+                    app:spanCount="3"
+                    tools:itemCount="15"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    tools:listitem="@layout/show_new_item" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/cIslamicRecycleView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintBottom_toTopOf="@+id/custom_float"
+                    app:layout_constraintTop_toBottomOf="@id/appAd"
+                    app:spanCount="3"
+                    tools:itemCount="15"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    tools:listitem="@layout/show_new_item" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/cDecentRecycleView"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintBottom_toTopOf="@+id/custom_float"
+                    app:layout_constraintTop_toBottomOf="@id/appAd"
+                    app:spanCount="3"
+                    tools:itemCount="15"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    tools:listitem="@layout/show_new_item" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/cDankRV"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintBottom_toTopOf="@+id/custom_float"
+                    app:layout_constraintTop_toBottomOf="@id/appAd"
+                    app:spanCount="3"
+                    tools:itemCount="15"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    tools:listitem="@layout/show_new_item" />
+
+                <ImageView
+                    android:id="@+id/bottomView"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_60sdp"
+                    android:background="@drawable/main_dashboard_bottom"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/newCatRv"
+                    android:scaleY="1.18"
+                    android:scaleX="1.03"
+                    app:layout_constraintVertical_bias="1.0">
+
+                </ImageView>
+
+
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/custom_float"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="Pic Image"
+                    android:src="@drawable/add_img"
+                    app:backgroundTint="@color/theme"
+                    app:fabCustomSize="70dp"
+                    app:maxImageSize="52dp"
+                    app:layout_constraintBottom_toTopOf="@+id/bottomView"
+                    app:layout_constraintEnd_toEndOf="@+id/bottomView"
+                    app:layout_constraintStart_toStartOf="@+id/bottomView"
+                    app:layout_constraintTop_toTopOf="@+id/bottomView">
+
+                </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+                <ImageView
+                    android:id="@+id/home_btn"
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/home_new_icon"
+                    app:layout_constraintStart_toStartOf="@+id/bottomView"
+                    app:layout_constraintTop_toTopOf="@+id/bottomView"
+                    app:layout_constraintEnd_toStartOf="@+id/custom_float"
+                    app:layout_constraintBottom_toBottomOf="@+id/bottomView"
+                    android:layout_height="wrap_content">
+
+                </ImageView>
+
+                <ImageView
+                    android:id="@+id/fav_btn"
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/fav_new_icon_for_main"
+                    app:layout_constraintTop_toTopOf="@+id/bottomView"
+                    app:layout_constraintEnd_toEndOf="@id/bottomView"
+                    app:layout_constraintStart_toEndOf="@+id/custom_float"
+                    app:layout_constraintBottom_toBottomOf="@+id/bottomView"
+                    android:layout_height="wrap_content">
+
+                </ImageView>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--        </ScrollView>-->
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/navigation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            app:headerLayout="@layout/header"
+            app:menu="@menu/navigation_menu">
+
+        </com.google.android.material.navigation.NavigationView>
+    </androidx.drawerlayout.widget.DrawerLayout>
+</layout>

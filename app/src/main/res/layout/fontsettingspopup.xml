@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/fontSettingCardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        app:cardBackgroundColor="@color/theme"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="5dp"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Font Settings"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/colortxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:padding="5dp"
+                android:text="Color: "
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <HorizontalScrollView
+                android:id="@+id/colorpicker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title"
+                android:layout_alignTop="@id/colortxt"
+                android:layout_alignBottom="@id/colortxt"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:layout_toEndOf="@id/colortxt"
+                android:scrollbarSize="1dp">
+
+                <LinearLayout
+                    android:id="@+id/colorL"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/colorwhite"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="5dp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardCornerRadius="20dp" />
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/colorred"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="5dp"
+                        app:cardBackgroundColor="@color/red"
+                        app:cardCornerRadius="20dp" />
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/colorblue"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="5dp"
+                        app:cardBackgroundColor="@color/blue"
+                        app:cardCornerRadius="20dp" />
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/colorgreen"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="5dp"
+                        app:cardBackgroundColor="@color/green"
+                        app:cardCornerRadius="20dp" />
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/colorgray"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="5dp"
+                        app:cardBackgroundColor="@color/gray"
+                        app:cardCornerRadius="20dp" />
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/colorpurple"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="5dp"
+                        app:cardBackgroundColor="@color/purple_200"
+                        app:cardCornerRadius="20dp" />
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/colorblack"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="5dp"
+                        app:cardBackgroundColor="@color/black"
+                        app:cardCornerRadius="20dp" />
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/colorskyblue"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="5dp"
+                        app:cardBackgroundColor="@color/skyblue"
+                        app:cardCornerRadius="20dp" />
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/colororange"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="5dp"
+                        app:cardBackgroundColor="@color/orange"
+                        app:cardCornerRadius="20dp" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/fonttxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/colortxt"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:padding="5dp"
+                android:text="Font: "
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/fontspinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/colorpicker"
+                android:layout_alignTop="@id/fonttxt"
+                android:layout_alignBottom="@id/fonttxt"
+                android:layout_toEndOf="@id/fonttxt"
+                android:backgroundTint="@color/white"
+                android:textAlignment="center" />
+
+
+            <TextView
+                android:id="@+id/sizetxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fonttxt"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:padding="5dp"
+                android:text="Size: "
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <SeekBar
+                android:id="@+id/seekfontsize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/sizetxt"
+                android:layout_alignBottom="@id/sizetxt"
+                android:layout_toEndOf="@id/sizetxt"
+                android:indeterminateTint="@color/theme"
+                android:max="100"
+                android:min="10"
+                android:progress="10"
+                android:progressTint="@color/theme_old"
+                android:thumbTint="@color/white" />
+
+            <TextView
+                android:id="@+id/styletxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sizetxt"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:padding="5dp"
+                android:text="Style: "
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:id="@+id/rg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sizetxt"
+                android:layout_alignTop="@id/styletxt"
+                android:layout_alignBottom="@id/styletxt"
+                android:layout_toEndOf="@id/styletxt"
+                android:gravity="center"
+                android:checkedButton="@id/normalstyle"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/normalstyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:buttonTint="@color/white"
+                    android:text="Normal"
+                    android:textColor="@color/white" />
+
+                <RadioButton
+                    android:id="@+id/boldstyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:text="Bold"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/italicstyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:text="Italic"
+
+                    android:textColor="@color/white"
+                    android:textStyle="italic" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/donebtn"
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:layout_below="@id/rg"
+                android:layout_centerHorizontal="true"
+                android:layout_marginHorizontal="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/roundercorner_btn"
+                android:text="Done"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</layout>

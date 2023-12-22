@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "290584308848",
+    "firebase_url": "https://meme-maker-e9490-default-rtdb.firebaseio.com",
+    "project_id": "meme-maker-e9490",
+    "storage_bucket": "meme-maker-e9490.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290584308848:android:13edc0ddb43e65dd1698b5",
+        "android_client_info": {
+          "package_name": "com.mememaker.mememakerpro.creatememe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "290584308848-kjr9fqu2aqk51lgcc3fk4ecrbmtjvjfs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0KG_PbEFUaLNEChQKFcr1EUxa9kSVabY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "290584308848-kjr9fqu2aqk51lgcc3fk4ecrbmtjvjfs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

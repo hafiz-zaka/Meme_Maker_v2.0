@@ -1,0 +1,836 @@
+<resources>
+    <string name="app_name">Meme Maker Pro</string>
+    <string name="click_on_me">LOL</string>
+    <string name="clicked_on_me">Cliked LOL</string>
+    <string name="new_name">New Name</string>
+    <string name="new_">New</string>
+    <string name="popular_">Popular</string>
+    <string name="fav_">Favorite</string>
+    <string name="more_">More</string>
+    <string name="main_dashboard">Dashboard</string>
+    <string name="meme_maker">Meme Maker</string>
+
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="about">About</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="more_apps">More Apps</string>
+    <string name="write_some">Write Something..</string>
+
+
+<!--    Categories Names-->
+    <string name="popular">Popular</string>
+    <string name="decent">Decent</string>
+    <string name="islamic">Islamic</string>
+
+    <string-array name="fonts">
+        <item>Default</item>
+        <item>Abeezee</item>
+        <item>Acme</item>
+        <item>Aclonica</item>
+        <item>Akaya Telivigala</item>
+        <item>Bungee Shade</item>
+        <item>Creepster</item>
+        <item>Homemade Apple</item>
+        <item>Faster One</item>
+        <item>Monoton</item>
+        <item>Agent Orange</item>
+        <item>Aldrich</item>
+        <item>Barberians</item>
+        <item>Black</item>
+        <item>Black City Bold</item>
+        <item>Black City Normal</item>
+        <item>Bone Chiller Free</item>
+        <item>Bone Chiller Free Bold</item>
+        <item>Challenge Contour</item>
+        <item>Challenge Shadow</item>
+        <item>Hrinkes Decor Personal</item>
+        <item>krinkes Regular Personal</item>
+        <item>Milky White</item>
+        <item>Monserga Regular</item>
+        <item>My Girl Retro</item>
+        <item>PlayFull</item>
+        <item>Snacker Comic</item>
+        <item>Start Out</item>
+        <item>Tuskergrotesk 6700 Bold</item>
+
+
+
+
+
+    </string-array>
+
+    <string name="myFontFamily">Acme</string>
+
+    <!--    Dummy Example -->
+    <string name="temp1A_1">Would you quit PUBG mobile for me?</string>
+    <string name="temp1B_1">Blocked</string>
+    <string name="temp1A_2">I\'m a model on Instagram </string>
+    <string name="temp1B_2">I\'m a soldier on Call of Duty</string>
+
+    <!--    71 Example -->
+    <string name="temp71A_1">If you want to cry, i\'ll give you something to cry about!</string>
+    <string name="temp71B_1">The fall of granada</string>
+    <string name="temp71A_2">If you want to cry, i\'ll give you something to cry about!</string>
+    <string name="temp71B_2">Tensoon will never meet Vin again</string>
+
+    <string name="temp2A_1">No Holidays</string>
+    <string name="temp2A_2">No Headphones </string>
+
+    <!--    72 Example -->
+    <string name="temp72A_1">AI is just if-else statements</string>
+    <string name="temp72B_1">Decision trees are AI</string>
+    <string name="temp72A_2">framework</string>
+    <string name="temp72B_2">"meta-framework"</string>
+
+    <string name="temp3A_1">When your friends told you they would be online in a few minutes</string>
+    <string name="temp3A_2">Me waiting for Quarantine to end</string>
+
+    <!--    73 Example -->
+    <string name="temp73A_1">Get drunk</string>
+    <string name="temp73A_2">Please, stop guys</string>
+
+    <string name="temp4A_1">Women</string>
+    <string name="temp4B_1">Hahahaha</string>
+    <string name="temp4A_2">Other Meme Apps</string>
+    <string name="temp4B_2">Hahahaha</string>
+
+    <!--    74 Example -->
+    <string name="temp74A_1">Me</string>
+    <string name="temp74B_1">End of 2020</string>
+    <string name="temp74B_2">Playing any other class in haz 4+</string>
+    <string name="temp74C_1">2021</string>
+    <string name="temp74C_2">carrying greens with Driller</string>
+    <string name="temp74D_1">Me,</string>
+    <string name="temp74E_1">End of 2020.</string>
+
+    <string name="temp5A_1">Those that don’t know</string>
+    <string name="temp5B_1">Those that know</string>
+    <string name="temp5A_2">Cursing in English</string>
+    <string name="temp5B_2">Cursing in Spanish</string>
+
+    <!--    75 Example -->
+    <string name="temp75A_1">I\'D like to thank the person that stayed with me through my</string>
+    <string name="temp75A_2">i would like to thank the person who has made me millions</string>
+    <string name="temp75B_1">Not you!!!</string>
+    <string name="temp75B_2">Sit down</string>
+    <string name="temp75C_1">Parents</string>
+    <string name="temp75C_2">Sessanta &amp; kdj</string>
+    <string name="temp75D_1">Remiity on twitch</string>
+    <string name="temp75D_2">Pavel</string>
+
+    <string name="temp6A_1">How People think the Quite kid is like</string>
+    <string name="temp6B_1">The Quite kid in real</string>
+    <string name="temp6A_2">Indians on Social Media</string>
+    <string name="temp6B_2">Indians in real life</string>
+
+    <!--    76 Example -->
+    <string name="temp76A_1">Can i have a big mac please?</string>
+    <string name="temp76B_1">Sir, this is a wendy\'s</string>
+    <string name="temp76A_2">Hey buddy heaven\'t seen you in a while</string>
+    <string name="temp76B_2">No i will not work on your car</string>
+
+
+    <string name="temp7A_1">I didn\'t do it...</string>
+    <string name="temp7A_2">When you pass your exams without studying</string>
+
+    <!--    77 Example -->
+    <string name="temp77A_1">What if i don\'t become anything</string>
+    <string name="temp77A_2">Am i a good memer</string>
+
+    <string name="temp8A_1">The Hostage</string>
+    <string name="temp8A_2">Empty Pocket</string>
+
+    <!--    78 Example -->
+    <string name="temp78A_1">Nuclear threat</string>
+    <string name="temp78A_2">The hey song</string>
+    <string name="temp78B_1">Nuclear threat Nuclear threat Nuclear threat</string>
+    <string name="temp78B_2">Uprising</string>
+
+    <string name="temp9A_1">Not Bad</string>
+    <string name="temp9A_2">No foreign invasion</string>
+
+    <!--    79 Example -->
+    <string name="temp79A_1">I love cyber cat stacking</string>
+    <string name="temp79A_2">Even if you give me a second chance and want me to apologize, i will never apologize.</string>
+
+    <string name="temp10A_1">Sydnee Mcelory when the mall CBD store makes unsubtantiated health claims</string>
+    <string name="temp10B_1">Sydnee Mcelory when the CIA says Russia is using a super secret ray gun to make Americans get headches</string>
+    <string name="temp10A_2">Hating on DC</string>
+    <string name="temp10B_2">Respecting Dc as both DC and Marvel are great franchises and not being a toxic person as you can like both</string>
+
+    <!--    80 Example -->
+    <string name="temp80A_1">Fun facts with squid ward!</string>
+    <string name="temp80A_2">Gmod is set in the half life universe</string>
+
+
+    <string name="temp11A_1">DEC 31/2022 \n 11:59</string>
+    <string name="temp11B_1">DEC 32/2022 \n 00:00</string>
+    <string name="temp11A_2">y=2x+3</string>
+    <string name="temp11B_2">y=x^3+7x^2+ \n 28x+11</string>
+
+    <!--    81 Example -->
+    <string name="temp81A_1">hey, are you sleeping?</string>
+    <string name="temp81B_1">All odd numbers have the letter "e" in them.</string>
+    <string name="temp81A_2">Hey, are you sleeping?</string>
+    <string name="temp81B_2">Before was was was was was is </string>
+    <string name="temp81C_1">yes, now shut up</string>
+    <string name="temp81C_2">yes i am, Now shut up.</string>
+
+    <string name="temp12A_1">Dripping in heat occupying my entire day</string>
+    <string name="temp12B_1">My daily productivity</string>
+    <string name="temp12A_2">People born in other years</string>
+    <string name="temp12B_2">People born in 2000</string>
+
+    <!--    82 Example -->
+    <string name="temp82A_1">What did you just say?</string>
+    <string name="temp82A_2">I am not sure!</string>
+
+
+    <string name="temp13A_1">Deleting history</string>
+    <string name="temp13B_1">creating history</string>
+    <string name="temp13A_2">$5</string>
+    <string name="temp13B_2">$4.99</string>
+
+    <!--    83 Example -->
+    <string name="temp83A_1">oh just look at yourself</string>
+    <string name="temp83A_2">Are you apro memer???</string>
+
+
+    <string name="temp14A_1">i`m not overeating</string>
+    <string name="temp14B_1">i`m just bulking Three Sixty Five days a year</string>
+    <string name="temp14A_2">How to win in a Game</string>
+    <string name="temp14B_2">Have fun with your friends</string>
+
+    <!--    84 Example -->
+    <string name="temp84A_1">2023 is going very well.</string>
+    <string name="temp84A_2">tell me something special about you</string>
+
+
+    <string name="temp15A_1">My Neighbours used to listen to justin bieber</string>
+    <string name="temp15B_1">Used to</string>
+    <string name="temp15A_2">My Career</string>
+    <string name="temp15B_2">Me Chilling</string>
+
+    <!--    85 Example -->
+    <string name="temp85A_1">what are you eating </string>
+    <string name="temp85B_1">"???"</string>
+    <string name="temp85A_2">these humans are very kind</string>
+    <string name="temp85B_2">No they are not</string>
+
+    <string name="temp16A_1">When I see couples</string>
+    <string name="temp16A_2">When i get broke</string>
+
+    <string name="temp17A_1">When your parents come to your school</string>
+    <string name="temp17A_2">When that Eight Mandatory booster hits</string>
+
+    <string name="temp18A_1">it really is flat</string>
+    <string name="temp18B_1">is that your final answer?</string>
+    <string name="temp18A_2">People who dont like KFC</string>
+    <string name="temp18B_2">KFC lovers</string>
+
+    <string name="temp19A_1">My Neighbours used to listen to justin bieber</string>
+    <string name="temp19A_2">My relative congratulating me for my job</string>
+
+    <string name="temp20A_1">Who is the real imposter</string>
+    <string name="temp20B_1">you are imposter</string>
+    <string name="temp20A_2">cats and dogs</string>
+    <string name="temp20B_2">mirrors</string>
+
+    <string name="temp21A_1">Dont be scared its just a game</string>
+    <string name="temp21A_2">if she supervised traffic lights, no one would ever run on a red light again</string>
+
+    <string name="temp22A_1">Physcopaths</string>
+    <string name="temp22B_1">Serial killers</string>
+    <string name="temp22C_1">People who make star butterfly</string>
+    <string name="temp22A_2">Fortnite sweats</string>
+    <string name="temp22B_2">Call of duty sweats</string>
+    <string name="temp22C_2">Doom sweats</string>
+
+    <string name="temp23A_1">Ok, Thats Weird</string>
+    <string name="temp23A_2">Wait are You Serious?</string>
+
+    <string name="temp24A_1">Me:has Netflix account \nMy Friends: our Netflix account</string>
+    <string name="temp24A_2">Me in school: I have a pack of gum. \nMy friends: we have</string>
+
+    <string name="temp25A_1">You go online to play with your friends</string>
+    <string name="temp25B_1">Good internet</string>
+    <string name="temp25C_1">No updates</string>
+    <string name="temp25A_2">Its 2028</string>
+    <string name="temp25B_2">Its the showcase of the next gen consoles</string>
+    <string name="temp25C_2">Rockstar games logo shows up</string>
+
+    <string name="temp26A_1">PS5 gets released</string>
+    <string name="temp26B_1">starting at $899.99</string>
+    <string name="temp26A_2">You find a project that interests you</string>
+    <string name="temp26B_2">Follow the development on Discord</string>
+
+    <string name="temp27A_1">the most popular girl in school likes you</string>
+    <string name="temp27B_1">it was a prank</string>
+    <string name="temp27A_2">you are going to TI 10</string>
+    <string name="temp27B_2">you found out that practice rooms are distributed by DPC points</string>
+
+    <string name="temp28A_1">When someone looks at you</string>
+    <string name="temp28B_2">Friday</string>
+    <string name="temp28D_2">Monday</string>
+    <string name="temp28A_2">How weekend passes</string>
+
+    <string name="temp29A_1">FBI agent</string>
+    <string name="temp29B_1">Me with proof that he is not real</string>
+    <string name="temp29A_2">2020</string>
+    <string name="temp29B_2">2022</string>
+
+    <string name="temp30A_1">Learning from Uinversity</string>
+    <string name="temp30B_1">Online Courses</string>
+    <string name="temp30C_1">From Youtube</string>
+    <string name="temp30D_1">From Article</string>
+    <string name="temp30A_2">Your brain on Social media </string>
+    <string name="temp30B_2">Your brain following memes on Social media</string>
+    <string name="temp30C_2">Your brain wants to new memes</string>
+    <string name="temp30D_2">Your brain when you open Meme maker App</string>
+
+    <string name="temp31A_1">COCA COLO WORKER</string>
+    <string name="temp31B_1">PEPSI</string>
+    <string name="temp31C_1">the secret recipe</string>
+    <string name="temp31A_2"> My Friend </string>
+    <string name="temp31C_2">Hey loser, you want something</string>
+
+    <string name="temp32A_1">Me checking myself</string>
+    <string name="temp32B_1">its just the Weed</string>
+    <string name="temp32A_2"> My friend checking his game skills </string>
+    <string name="temp32B_2">noob</string>
+
+    <string name="temp33A_1">Me after getting 2 hours of sleep</string>
+    <string name="temp33B_1">Me after sleeping for 12 hours</string>
+    <string name="temp33A_2"> During Exams</string>
+    <string name="temp33B_2">After Exams</string>
+
+    <string name="temp34A_1">What happened to him?</string>
+    <string name="temp34B_1">He tried to learn Java</string>
+    <string name="temp34A_2"> What happened to him ?</string>
+    <string name="temp34B_2">He is a Marvel fan </string>
+
+    <string name="temp35A_1">Me thinking about the next working day</string>
+    <string name="temp35A_2">Me thinking about that life is to short</string>
+
+    <string name="temp36A_1">You Will never have a good physique.</string>
+    <string name="temp36A_2">Human life is so good.</string>
+
+    <string name="temp37A_1">Girls when they see a spider</string>
+    <string name="temp37B_1">The spider</string>
+    <string name="temp37A_2"> We have a meeting</string>
+    <string name="temp37B_2">That should have been an email </string>
+
+    <string name="temp38A_1">People who write Spider-Man</string>
+    <string name="temp38B_1">People who write Spiderman</string>
+    <string name="temp38A_2"> Minecraft hunger games</string>
+    <string name="temp38B_2">Fortnite </string>
+
+    <string name="temp39A_1">Our phones are broken</string>
+    <string name="temp39A_2">Oh no i cant put you out like that!</string>
+
+    <string name="temp40A_1">Is this a pigeon?</string>
+    <string name="temp40A_2">What kind of bird is this?</string>
+
+    <string name="temp41A_1">What are you looking at ?</string>
+    <string name="temp41A_2">Finally you found me.</string>
+
+    <string name="temp42A_1">Celebrities sharing vacation pics of Maldives</string>
+    <string name="temp42B_1">People suffering in crisis</string>
+    <string name="temp42A_2"> Right triangle</string>
+    <string name="temp42B_2">other triangles Mathematics </string>
+
+    <string name="temp43A_1">When you turn off the basement lights</string>
+    <string name="temp43A_2">Me running away from conversations</string>
+
+    <string name="temp44A_1">2+2=5</string>
+    <string name="temp44B_1">i am not dumb</string>
+    <string name="temp44A_2">Cant get fired</string>
+    <string name="temp44B_2">if you quit first </string>
+
+    <string name="temp45A_1">You still need to wear a mask &amp; social distancing</string>
+    <string name="temp45A_2">Come i will show you something</string>
+
+    <string name="temp46A_1">The man who invented the pringles can was buried in one</string>
+    <string name="temp46B_1">Until we meet again</string>
+    <string name="temp46A_2">Raiden from Metal Gear is African-American</string>
+    <string name="temp46B_2">Skeletor will come back with more fun facts </string>
+
+    <string name="temp47A_1">When someone asks What\'s that smell?</string>
+    <string name="temp47A_2">Parents: Never take candy from a stranger! \nHalloween</string>
+
+    <string name="temp48A_1">More ads</string>
+    <string name="temp48B_1">making them unskippable</string>
+    <string name="temp48C_1">Youtube</string>
+    <string name="temp48A_2">Buying your kid a PS5</string>
+    <string name="temp48B_2">Not allowing them to use it </string>
+    <string name="temp48C_2">parents</string>
+
+    <string name="temp49A_1">$100</string>
+    <string name="temp49B_1">$99.99</string>
+    <string name="temp49A_2">Can i have my bonus ?</string>
+    <string name="temp49B_2">yup, you are fired. </string>
+
+    <string name="temp50A_1">coming up with a new idea</string>
+    <string name="temp50B_1">Implementing it</string>
+    <string name="temp50A_2">Me all night </string>
+    <string name="temp50B_2">Me at 8AM </string>
+
+    <string name="temp51A_1">Oh great now AI is angry to</string>
+    <string name="temp51A_2">Don\'t ignore me</string>
+
+    <string name="temp52A_1">Honey what happend?</string>
+    <string name="temp52A_2">I supposed not to be here.</string>
+
+    <string name="temp53A_1">i love them so much</string>
+    <string name="temp53A_2">my friends are probably tired of me</string>
+
+    <string name="temp54A_1">New meme templates</string>
+    <string name="temp54B_1">Reedit after 1 day</string>
+    <string name="temp54A_2">England going to create the colonies </string>
+    <string name="temp54B_2">The colonies rebelling &amp; creating their own nation </string>
+
+    <string name="temp55A_1">listen Carefully</string>
+    <string name="temp55B_1">I am a free bird not a human pet</string>
+    <string name="temp55A_2">Don\'t tell anyone  </string>
+    <string name="temp55B_2">that i like Youtube ads</string>
+
+    <string name="temp56A_1">No one:\nMe for no reason</string>
+    <string name="temp56A_2">You: i want my pencil back\nfriend: did i borrow your pencil? you:</string>
+
+    <string name="temp57A_1">my mom</string>
+    <string name="temp57B_1">Me hiding from my mom after she calls my full name</string>
+    <string name="temp57A_2">my mom</string>
+    <string name="temp57B_2">Me trying to play peacefully</string>
+
+    <string name="temp58A_1">When you see your friend in the same bus</string>
+    <string name="temp58A_2">USA when iran wants to go to war</string>
+
+    <string name="temp59A_1">Those are andys toys </string>
+    <string name="temp59B_1">they have the same names as we do</string>
+    <string name="temp59A_2">Covidiots</string>
+    <string name="temp59B_2">Covidiots Everywhere</string>
+
+    <string name="temp60A_1">you can do this</string>
+    <string name="temp60A_2">Me when i make someone smile</string>
+
+    <string name="temp61A_1">when someone tells or shows</string>
+    <string name="temp61B_1">you something funny that is not funny</string>
+    <string name="temp61A_2">When someone says just wait for the right time</string>
+    <string name="temp61B_2">Team is working on it </string>
+
+    <string name="temp62A_1">What I if told you</string>
+    <string name="temp62B_1">you read the top line wrong</string>
+    <string name="temp62A_2">Dad: look me in the eye, if you laugh i know your lying</string>
+    <string name="temp62B_2">Also My Dad</string>
+
+    <string name="temp63A_1">I hate angry people!</string>
+    <string name="temp63B_1">Also Me</string>
+    <string name="temp63A_2">It\'s your job to listen to me!</string>
+
+    <string name="temp64A_1">He is to dangerous to be left alive</string>
+    <string name="temp64A_2">You cant beat me.</string>
+
+    <string name="temp65A_1">1/0= ????</string>
+    <string name="temp65A_2">Earth is flat!</string>
+
+    <string name="temp66A_1">I am so sad</string>
+    <string name="temp66A_2">Me after finding out petrol price hikes</string>
+
+    <string name="temp67A_1">Corona Virus </string>
+    <string name="temp67B_1">Corona Beer</string>
+    <string name="temp67A_2">OMICRON</string>
+    <string name="temp67B_2">People thinking covid is almost over</string>
+
+    <string name="temp68A_1">What the hack ?</string>
+    <string name="temp68A_2">Checking workers list.</string>
+
+    <string name="temp69A_1">Teacher telling their struggles in class </string>
+    <string name="temp69B_1">first benchers:</string>
+    <string name="temp69A_2">When your friend start eating your lunch from your tiffen</string>
+    <string name="temp69B_2">You: Please stop doing this bro !</string>
+
+    <string name="temp70A_1">I killed a man and you?</string>
+    <string name="temp70B_1">No bro never</string>
+    <string name="temp70A_2">I love BTS army and You</string>
+    <string name="temp70B_2">I hate them.</string>
+
+<!--     86 Example -C->-->
+    <string name="temp86A_1">When some girls wanna flirt but you already married and fear Allah</string>
+    <string name="temp86B_1">When someone ask me to do sin</string>
+
+    <!--     87 Example -->-->
+    <string name="temp87A_1">Me praying that who ever reading this gets ultimate happiness and is granted the highest level of Janna</string>
+    <string name="temp87B_1">Exams are HARAM!!!</string>
+
+    <!--     88 Example -->-->
+    <string name="temp88A_1">Which rakat was I on?</string>
+    <string name="temp88B_1">Me thinking about bad things while praying</string>
+
+    <!--     89 Example -C->-->
+    <string name="temp89A_1">Brother ask very good question</string>
+    <string name="temp89B_1">Teacher: Why don\'t you take an interest in studies? Me: Because interest is haram</string>
+
+    <!--     90 Example -C->-->
+    <string name="temp90A_1">Am I tripping this dude look like sheikh Zayn Malik</string>
+    <string name="temp90B_1">Me when I pray only one salat in a week</string>
+
+    <!--     91 Example -->-->
+    <string name="temp91A_1">Muslims in antarctica waiting for the sun to set so they can eat</string>
+    <string name="temp91B_1">When Japan people hear the syron in Ramazan</string>
+
+    <!--     92 Example -->-->
+    <string name="temp92A_1">Fatima, I know you\'re American but you can\'t say its lit when describing jahannam</string>
+    <string name="temp92B_1">Me describing the solutions </string>
+
+    <!--     93 Example -->-->
+    <string name="temp93A_1">Muslims in Ramadan</string>
+    <string name="temp93B_1">When I help the people in Ramadan</string>
+
+    <!--     94 Example -C->-->
+    <string name="temp94A_1">So you\'ve never studied islam, never read the quran and never lived among muslims yet you claim islam is evil?</string>
+    <string name="temp94B_1">When your non muslim friend accept islam and realise that islam is not evil</string>
+
+    <!--     95 Example -->-->
+    <string name="temp95A_1">My family trying to send me to the Masjid after ifthar</string>
+    <string name="temp95B_1">When I sleep after iftar without praying</string>
+
+    <!--     96 Example -->-->
+    <string name="temp96A_1">When you catch your sibling walking around the fridge while fasting</string>
+    <string name="temp96B_1">when my friend drinks water in ramzan</string>
+
+    <!--     97 Example -C->-->
+    <string name="temp97A_1">When the imaam giving khutba speaks only with arabic terms</string>
+    <string name="temp97B_1">My friend after taraweeh</string>
+
+    <!--     98 Example -->-->
+    <string name="temp98A_1">Media be like..  Titanic sinking linked with Muslim shark trained in Northern Pakistan.</string>
+
+    <!--     99 Example -C->-->
+    <string name="temp99A_1">My emojis in Ramadan</string>
+
+    <!--     100 Example -->-->
+    <string name="temp100A_1">Me after listening to deep islamic lecture</string>
+
+    <!--     101 Example -->-->
+    <string name="temp101A_1">Great run you lost 79 kg</string>
+    <string name="temp101A_2">Ops your blood pressure is low</string>
+
+    <!--     102 Example -->-->
+    <string name="temp102A_1">When Dwayne jojnson swallows his pride and returns to your franchise:</string>
+    <string name="temp102A_2">I have family </string>
+    <string name="temp102B_1">When Jason Momoa joins your franchise and steals your thunder:</string>
+    <string name="temp102B_2">I dont have friends</string>
+
+    <!--     103 Example -->-->
+    <string name="temp103A_1">When you borrow a pen from your friend and see its the same pen you lost recently.</string>
+    <string name="temp103A_2">NFT creators when i right click and save image as</string>
+
+    <!--     104 Example -->-->
+    <string name="temp104A_1">He watches naruto skipping all the filler episodes</string>
+    <string name="temp104A_2">His family doesn\'t even have an air fryer Imao</string>
+
+    <!--     105 Example -->-->
+    <string name="temp105A_1">When you want hotter water and turn the nob just 0.1 degrees</string>
+    <string name="temp105A_2">*taking a shower in winter* Too cold...too cold...too cold... Ahh perfect</string>
+
+    <!--     106 Example -->-->
+    <string name="temp106A_1">So i said to Ashley "where did you get those toilet rolls?" He said "aisle B, back."</string>
+    <string name="temp106A_2">When you se a curier in the squat rack </string>
+
+    <!--     107 Example -->-->
+    <string name="temp107A_1">When you have coffee at home</string>
+    <string name="temp107A_2">Zoom meeting,audio only</string>
+    <string name="temp107B_1">When you have coffee out in public</string>
+    <string name="temp107B_2">Zoom meeting with video</string>
+
+    <!--     108 Example -->-->
+    <string name="temp108A_1">Memers when a good movie comes out</string>
+    <string name="temp108A_2">Me with family members</string>
+    <string name="temp108B_1">Memers when a bad movie comes out</string>
+    <string name="temp108B_2">Me with friends</string>
+
+    <!--     109 Example -->-->
+    <string name="temp109A_1">When you realize you disconect through an entire conversation and they are waiting for a response</string>
+    <string name="temp109A_2">When you are letting your little brother win in a game but then he starts bragging about how good he is</string>
+
+    <!--     110 Example -->-->
+    <string name="temp110A_1">Me, absolutely dead inside but enjoying the little things with the catto</string>
+    <string name="temp110A_2">Sorry, I cant, I have plans."the plans: </string>
+
+    <!--     111 Example -->-->
+    <string name="temp111A_1">People who hate Youtube shorts</string>
+    <string name="temp111A_2">How dare you coronavirus</string>
+    <string name="temp111B_1">Mobile Youtube in 2021</string>
+    <string name="temp111B_2">All the toilet paper in the world</string>
+
+    <!--     112 Example -->-->
+    <string name="temp112A_1">Huffle puff is the worst house</string>
+    <string name="temp112A_2">All is quit on new year</string>
+    <string name="temp112B_1">You shut the front door</string>
+    <string name="temp112B_2">Bro NO it isn\'t.</string>
+
+    <!--     113 Example -->-->
+    <string name="temp113A_1">Its good</string>
+    <string name="temp113A_2">You Want Memes</string>
+    <string name="temp113B_1">But it gets better!</string>
+    <string name="temp113B_2">You Got it</string>
+
+    <!--     114 Example -->-->
+    <string name="temp114A_1">When the fake name that you gave the cops has a warrant</string>
+    <string name="temp114A_2">When you say a swear word and there\'s a teacher behind you</string>
+
+    <!--     115 Example -->-->
+    <string name="temp115A_1">Me: "I'm going to work really hard and get my life tigether over the Easter break" My brain:</string>
+    <string name="temp115A_2">When teacher ask about assignment, Me :</string>
+
+    <!--     116 Example -->-->
+    <string name="temp116A_1">Me rewarding myself after opening my laptop, opening up the appropriate PowerPoint slides, and arranging my notes neatly</string>
+    <string name="temp116A_2">When I pass my exams</string>
+    <!--     117 Example -->-->
+    <string name="temp117A_1">When your teacher asks you to turn in your essay but you ain\'t no snitch</string>
+    <string name="temp117A_2">When backbencher fail there exams</string>
+    <!--     118 Example -->-->
+    <string name="temp118A_1">Professor: attendance isn\'t mandatory Me:</string>
+    <string name="temp118A_2">When teacher ask me any question</string>
+    <!--     119 Example -->-->
+    <string name="temp119A_1">Me after studying for Fifteen minutes </string>
+    <string name="temp119A_2">Me dreaming about good grads</string>
+    <!--     120 Example -->-->
+    <string name="temp120A_1">When all the lazy students get put in the same presentation group</string>
+    <string name="temp120A_2">Backbenchers showing their presentation</string>
+    <!--     121 Example -->-->
+    <string name="temp121A_1">When you had 3 weeks to finish your assignment but you still left it all until the night before its due</string>
+    <string name="temp121A_2">Me thinking about my feauture </string>
+
+    <!--     122 Example -->-->
+    <string name="temp122A_1">When you fail the exam / when you find out your best friend failed too</string>
+    <string name="temp122A_2">When you see other student playing in ground/ But me and my friend chilling in classroom </string>
+    <!--     123 Example -->-->
+    <string name="temp123A_1">When you see your result </string>
+    <string name="temp123A_2">When backbenchers see there result</string>
+    <!--     124 Example -->-->
+    <string name="temp124A_1">When you see your friends outside having fun but you still have exams</string>
+    <string name="temp124A_2">The one friend who always fail in exams</string>
+    <!--     125 Example -->-->
+    <string name="temp125A_1">High school teacher: You learn this at university</string>
+    <string name="temp125A_2">When teacher ask me any question</string>
+    <!--     126 Example -->-->
+    <string name="temp126A_1">When you crawl into class to turn in an assignment after an all-nighter:</string>
+    <string name="temp126A_2">Me going in classroom for an assignment</string>
+    <!--     127 Example -->-->
+    <string name="temp127A_1">Person at my University took this photo. The Walking dead</string>
+    <string name="temp127A_2">First working day in University</string>
+    <!--     128 Example -->-->
+    <string name="temp128A_1">How\'s your semester going </string>
+    <string name="temp128A_2">When toppers get 80% in exams</string>
+    <!--     129 Example -->-->
+    <string name="temp129A_1">Thinking about going on a night out vs one second later when you remember you have exams to revise for</string>
+    <string name="temp129A_2">Suddenly when I realise that I failed my exams</string>
+
+    <!--     130 Example -->-->
+    <string name="temp130A_1">When you eat mentos and drink cold water at the same</string>
+    <string name="temp130A_2">Whenver i eat icecream and drink cold water </string>
+
+    <!--     131 Example -->-->
+    <string name="temp131A_1">When you are drunk and start being friends witch </string>
+    <string name="temp131A_2">Day 23 / They still accept me as one of them</string>
+
+    <!--     132 Example -->-->
+    <string name="temp132A_1">When you lose something and somebody say "Where you lose it at?"</string>
+    <string name="temp132A_2">When you realise that no one cares about you</string>
+
+    <!--     133 Example -->-->
+    <string name="temp133A_1">When you &amp; your friend say the same thing at the same time...</string>
+    <string name="temp133A_2">When you\'re full on laughing with someone and you both keep adding things which makes it funnier and you can barely breathe</string>
+
+    <!--     134 Example -->-->
+<!--    <string name="temp134A_1">When the teacher asks if you have any questions, but you sit there in silence because you don\'t even know what you don't even know</string>-->
+<!--    <string name="temp134A_2">When the final results come</string>-->
+
+    <!--     134 Example-->
+    <string name="temp134A_1">When the teacher asks if you have any questions,but you sit there in silence because you don\'t even know</string>
+    <string name="temp134A_2">When the final results come</string>
+
+    <!--     135 Example -->-->
+    <string name="temp135A_1">When the flashlight app wants access to your call history</string>
+    <string name="temp135A_2">Spaceflight stops</string>
+
+    <!--     136 Example -->-->
+    <string name="temp136A_1">When you first started your job vs you at your job now...</string>
+    <string name="temp136A_2">Updated resume vs Old resume</string>
+
+    <!--     137 Example -->-->
+    <string name="temp137A_1">Your mom taking your picture before you deploy for world war 3</string>
+    <string name="temp137A_2">Me quitting music and joining the military after u gave me a 6.5</string>
+
+    <!--     138 Example -->-->
+    <string name="temp138A_1">“If you don’t stop asking me if we’re nearly there yet, I will turn this bus round; and none of you will see Salisbury cathedral. Do you hear me?”</string>
+    <string name="temp138A_2">Putin: do you know Siberia? / guy: no / Putin: you will if you kick the chair one more time</string>
+
+    <!--     139 Example -->-->
+    <string name="temp139A_1">When you try to get 40% on a test to pass but accidentally got 60%</string>
+    <string name="temp139A_2">When you make 10$ profit from crypto and people start asking for advices from you</string>
+
+    <!--     140 Example -->-->
+    <string name="temp140A_1">Me every time ye says "God shine your light on me and save me please"</string>
+    <string name="temp140A_2">When your favourite song comes on the radio but it\'s ending</string>
+
+    <!--     141 Example -->-->
+    <string name="temp141A_1">Happiness is temporary</string>
+    <string name="temp141A_2">There no friendship in Uno happiness is temporary</string>
+
+    <!--     142 Example -->-->
+    <string name="temp142A_1">We Are Not The Same bro</string>
+    <string name="temp142A_2">You watch video games.I play them. We are not the same.</string>
+
+    <!--     143 Example -->-->
+    <string name="temp143A_1">DeFi hackers are coming for you and you still have not covered your assets with Insurance</string>
+    <string name="temp143A_2">Traction is more important for a startup than funding</string>
+
+    <!--     144 Example -->-->
+    <string name="temp144A_1">If you enjoy the time you wasted then its not wasted </string>
+    <string name="temp144A_2">Big burger should be wider, not taller</string>
+
+
+    <string name="advertising_area">Advertising Area</string>
+
+
+<!--    Meme Names-->
+    <string name="tempName_1">Girl and boy are chatting</string>
+    <string name="tempName_2">Mega mind</string>
+    <string name="tempName_3">Mr. Bean</string>
+    <string name="tempName_4">Women hahaha</string>
+    <string name="tempName_5">Bob Par Fictional superhero</string>
+    <string name="tempName_6">Dog meme</string>
+    <string name="tempName_7">Tom cate</string>
+    <string name="tempName_8">Unsettled tom meme</string>
+    <string name="tempName_9">Barack Obama</string>
+    <string name="tempName_10">Stan Lee</string>
+    <string name="tempName_11">Disappointed Meme</string>
+    <string name="tempName_12">Australian takes a selfie with a dust devil</string>
+    <string name="tempName_13">Drake meme</string>
+    <string name="tempName_14">Jim Halpert Pointing to Whiteboard</string>
+
+<!--    Popular Memem Name-->
+    <string name="tempName_15">Disaster girl</string>
+    <string name="tempName_16">Frustration</string>
+    <string name="tempName_17">Skeletons memes</string>
+    <string name="tempName_18">Astronaut meme</string>
+    <string name="tempName_19">Leonardo Dicaprio meme</string>
+    <string name="tempName_20">Animated spider man</string>
+    <string name="tempName_21">Squid game meme</string>
+    <string name="tempName_22">Harry potter and tom meme</string>
+    <string name="tempName_23">Felonious Gru meme</string>
+    <string name="tempName_24">Bugs Bunny meme</string>
+    <string name="tempName_25">Vince McMahon meme</string>
+    <string name="tempName_26">Squid ward meme</string>
+    <string name="tempName_27">Lee Jung-jae meme</string>
+    <string name="tempName_28">White guy blinking</string>
+
+<!--    .........-->
+    <string name="tempName_29">Christian Bale meme</string>
+    <string name="tempName_30">Brain neurons activity</string>
+    <string name="tempName_31">The secret recipe</string>
+    <string name="tempName_32">Checking my temperature</string>
+    <string name="tempName_33">Eren Yeager meme</string>
+    <string name="tempName_34">What happened to him?</string>
+    <string name="tempName_35">Thinking about something</string>
+    <string name="tempName_36">sad  Frog</string>
+    <string name="tempName_37">Cat meme</string>
+    <string name="tempName_38">Spider man meme</string>
+    <string name="tempName_39">SpongeBob SquarePants meme</string>
+    <string name="tempName_40">The Brave of Sun Fighbird</string>
+    <string name="tempName_41">No Name 1</string>
+    <string name="tempName_42">No Name 2</string>
+    <string name="tempName_43">No Name 3</string>
+    <string name="tempName_44">No Name 4</string>
+    <string name="tempName_45">No Name 5</string>
+
+<!--    46 to 70 skip-->
+
+<!--    71 to 84-->
+    <string name="tempName_71">If you Cry</string>
+    <string name="tempName_72">Public reacts</string>
+    <string name="tempName_73">Brain meme</string>
+    <string name="tempName_74">Carton meme 1</string>
+    <string name="tempName_75">Carton meme 2</string>
+    <string name="tempName_76">Carton meme 3</string>
+    <string name="tempName_77">Carton meme 4</string>
+    <string name="tempName_78">Carton meme 5</string>
+    <string name="tempName_79">Carton meme 6</string>
+    <string name="tempName_80">Fun facts with squid ward</string>
+    <string name="tempName_81">Carton meme 7</string>
+    <string name="tempName_82">Carton meme 8</string>
+    <string name="tempName_83">Carton meme 9</string>
+    <string name="tempName_84">Carton meme 10</string>
+    <string name="tempName_85">Animals meme</string>
+
+<!--    Islamic Meme Name-->
+    <string name="tempName_86">Drake</string>
+    <string name="tempName_87">Snopdog</string>
+    <string name="tempName_88">Which rakaat</string>
+    <string name="tempName_89">Dr Zakir naik</string>
+    <string name="tempName_90">Am i tripping</string>
+    <string name="tempName_91">Muslims in antarctica</string>
+    <string name="tempName_92">Muslim hacks</string>
+    <string name="tempName_93">Muslims in Ramadan</string>
+    <string name="tempName_94">Islam is not evil</string>
+    <string name="tempName_95">Ramazan meme</string>
+    <string name="tempName_96">Ramazan Meme 2</string>
+    <string name="tempName_97">I am giving khutba</string>
+    <string name="tempName_98">Muslim shark</string>
+    <string name="tempName_99">Muslim Emojis</string>
+    <string name="tempName_100">Deep Islamic</string>
+
+    <!--    Decent Meme Name-->
+    <string name="tempName_101">Watch beeping</string>
+    <string name="tempName_102">Dominic toretto</string>
+    <string name="tempName_103">Shocking person</string>
+    <string name="tempName_104">Teen Bullying</string>
+    <string name="tempName_105">Good morning meme</string>
+    <string name="tempName_106">Arnold Schwarzenegger</string>
+    <string name="tempName_107">Stylish Dog Meme </string>
+    <string name="tempName_108">Black guy meme</string>
+    <string name="tempName_109">When you realize</string>
+    <string name="tempName_110">My Plans</string>
+    <string name="tempName_111">Corona virus</string>
+    <string name="tempName_112">Batman slapping</string>
+    <string name="tempName_113">Maxwell</string>
+    <string name="tempName_114">Stylish Cat Meme</string>
+
+    <!--    University Meme Name-->
+    <string name="tempName_115">Why you always lying?</string>
+    <string name="tempName_116">Treat your self</string>
+    <string name="tempName_117">Teacher asks you</string>
+    <string name="tempName_118">Attendance isn\'t mandatory</string>
+    <string name="tempName_119">Studying for 15 minutes</string>
+    <string name="tempName_120">Lazy students</string>
+    <string name="tempName_121">Finish your assignment</string>
+    <string name="tempName_122">Fail the exam</string>
+    <string name="tempName_123">Result arrived</string>
+    <string name="tempName_124">Still have exams</string>
+    <string name="tempName_125">University lecture</string>
+    <string name="tempName_126">Assignment after an all-nighter</string>
+    <string name="tempName_127">University photo</string>
+    <string name="tempName_128">How\'s your semester going</string>
+    <string name="tempName_129">Exams to revise</string>
+
+    <!--    Dank Meme Name-->
+    <string name="tempName_130">Eat some thing cold</string>
+    <string name="tempName_131">Dog and dolphin</string>
+    <string name="tempName_132">Trukfit</string>
+    <string name="tempName_133">Elephant seals</string>
+    <string name="tempName_134">Teacher ask question</string>
+    <string name="tempName_135">Elon Musk</string>
+    <string name="tempName_136">Samuel Jackson before and after Template</string>
+    <string name="tempName_137">Soldier meme</string>
+    <string name="tempName_138">Vladimir Putin</string>
+    <string name="tempName_139">Suffering from success</string>
+    <string name="tempName_140">LeBron James</string>
+    <string name="tempName_141">Blursed Uno</string>
+    <string name="tempName_142">We are not same</string>
+    <string name="tempName_143">Rick and Morty</string>
+    <string name="tempName_144">Behold The One Commandment Booze</string>
+
+</resources>

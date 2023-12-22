@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>splash_open_ad</key>
+        <value>0</value>
+    </entry>
+
+    <entry>
+        <key>main_dashboard_interstitial_ad</key>
+        <value>No Ads</value>
+    </entry>
+
+    <entry>
+        <key>edit_activity_interstitial_ad</key>
+        <value>No Ads</value>
+    </entry>
+
+    <entry>
+        <key>edit_activity_banner_ad</key>
+        <value>No Ads</value>
+    </entry>
+
+    <entry>
+        <key>start_activity_native_ad</key>
+        <value>No Ads</value>
+    </entry>
+</defaultsMap>
